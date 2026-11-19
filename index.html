@@ -11,7 +11,9 @@
         margin: 40px auto;
         padding: 0 16px;
       }
-      input, textarea, button {
+      input,
+      textarea,
+      button {
         display: block;
         width: 100%;
         margin-bottom: 12px;
@@ -31,9 +33,13 @@
     <h1>Week 9</h1>
 
     <!-- Paste your key here. Never type it into your code: this repo is on GitHub. -->
-    <input id="key" type="password" placeholder="OpenRouter API key (sk-or-...)" autocomplete="new-password" />
-
-    <textarea id="prompt" rows="3" placeholder="Your prompt"></textarea>
+    <input
+      id="key"
+      type="password"
+      placeholder="OpenRouter API key (sk-or-...)"
+    />
+    <input id="key" type="emotion" placeholder="emotion" />
+    <textarea id="question" rows="3" placeholder="Your question"></textarea>
     <button id="send">Send</button>
 
     <pre id="output"></pre>
